@@ -1,11 +1,11 @@
-﻿int numero = -1;
-int numero2 = 0;
+﻿double numero = -1;
+double numero2 = 0;
 do
 {
     Console.WriteLine();
     Console.WriteLine("Ingrese un número positivo: ");
     Console.WriteLine();
-    numero=int.Parse(Console.ReadLine());
+    numero=double.Parse(Console.ReadLine());
     Console.WriteLine();
     numero2 = numero;
     if (numero2 == 0)
