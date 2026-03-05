@@ -6,14 +6,14 @@ Console.WriteLine("- La suma total de los números");
 Console.WriteLine("- Cuántos números se ingresaron");
 Console.WriteLine("- El promedio de los número ingresados");
 Console.WriteLine();
-int numero = -1;
-int suma = 0;
+double numero = -1;
+double suma = 0;
 int contador = 0;
 do
 {
     Console.WriteLine("Ingrese un número: ");
     Console.WriteLine();
-    numero=int.Parse(Console.ReadLine());
+    numero=double.Parse(Console.ReadLine());
     Console.WriteLine();
     suma += numero;
     contador++;
