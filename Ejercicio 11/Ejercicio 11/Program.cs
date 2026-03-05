@@ -1,11 +1,11 @@
 ﻿int cantidadnumero = 1;
-int numero = 0;
-int suma = 0;
+double numero = 0;
+double suma = 0;
 do
 {
     Console.WriteLine($"Ingrese el {cantidadnumero}° número: ");
     Console.WriteLine();
-    numero=int.Parse( Console.ReadLine() );
+    numero=double.Parse( Console.ReadLine() );
     Console.WriteLine();
     suma += numero;
     cantidadnumero++;
