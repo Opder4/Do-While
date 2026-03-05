@@ -13,3 +13,4 @@ do
     ordinales++;
 } while (numero != 0);
 Console.WriteLine($"la suma total es {suma}");
+
